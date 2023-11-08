@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+
+        <style>
+            input[type="text"],
+            input[type="password"],
+            input[type="email"]
+         {
+                width:40%;
+                padding:8px;
+                margin:6px;
+            }
+input[type="text"]:focus{
+    background-color: aqua;
+    color:darkred;
+
+
+}
+
+input[type="password"]:hover{
+    background-color: brown;
+    color:aliceblue;
+}
+
+        </style>
+    </head>
+    <body>
+
+
+<h1>Form input elements....</h1>
+
+
+<form>
+    <label>first name::</label>
+    <input type="text" required> <br><br>
+
+    <label>enter the password::</label>
+    <input type="password"> <br><br>
+
+    <label>email::</label>
+    <input type="email"> <br><br>
+
+    <label>choose your favorite colour::</label>
+    <input type="colour" <br><br>
+
+    <label>choose your DOB::</label>
+    <input type="date"> <br><br>
+
+    <label>choose your dob with time::</label>
+    <input type="datetime-local"> <br><br>
+
+    <label>choose your month::</label>
+    <input type="month"><br><br>
+
+    <label>choose your time::</label>
+    <input type="time"> <br><br>
+    
+    <label>select qualifications</label>
+    <select>
+    <option>bba</option>
+    <option>bca</option>
+    <option>bca</option>
+    <option>btech</option>
+</select>
+<BR><BR>
+    <label>choose your week::</label>
+    <input type="week"> <br><br>
+
+    <label>choose your favourite number::</label>
+    <input type="nummber" min="5" max="5"> <br><br>
+    
+    <label>choose your range::</label>
+    <input type="range"> <br><br>
+
+    <label>choose the file to be uploaded::</label>
+    <input type="file"> <br><br>
+
+    <label>choose the files to be uploaded::</label>
+    <input type="file" multiple> <br><br>
+
+    <label>enter the phone number</label>
+    <input type="tel" pattern="[0-9]{3}--[0-9]{3}0--[0-9]{3}"
+
+<br><br>
+
+
+<input type="submit">
+<input type="reset">
+</form>
+
+    </body>
+</html>
